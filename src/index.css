@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Overriding standard Slate/Neutral colors to mapped Elegant Dark levels */
+  --color-neutral-950: #0A0A0A; /* Elegant Dark deep canvas base */
+  --color-neutral-900: #0F0F0F; /* Section panels & navigation header bg */
+  --color-neutral-850: #141414; /* Table rows on hover & tertiary elements */
+  --color-neutral-800: #1A1A1A; /* Borders & standard form input containers */
+  --color-neutral-750: #222222; /* Divider lines / secondary borders */
+  --color-neutral-700: #333333; /* Focused border states */
+
+  /* Elegant Dark signature Lime Light accent color palette (#D1FF4D) */
+  --color-brand-green-50: #faffeb;
+  --color-brand-green-100: #f4ffc2;
+  --color-brand-green-200: #e9ff80;
+  --color-brand-green-300: #dcff42;
+  --color-brand-green-400: #D1FF4D; /* Main Elegant Dark Acid Limelight */
+  --color-brand-green-450: #c1ef39;
+  --color-brand-green-500: #a7d121;
+  --color-brand-green-600: #88ab15;
+  --color-brand-green-700: #6a850e;
+  --color-brand-green-800: #4c5f0a;
+  --color-brand-green-950: #1c2401; /* Dark background underlime ambient glow */
+}
+

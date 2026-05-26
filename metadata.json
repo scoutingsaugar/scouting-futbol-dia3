@@ -1,0 +1,6 @@
+{
+  "name": "Scouting de Fútbol",
+  "description": "Base de datos interactiva para el scouting de futbolistas con filtros avanzados de edad y posición.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
